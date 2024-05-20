@@ -1,0 +1,10 @@
+definition_version: 1
+streamlit:
+  name: streamlit_app
+  stage: penguin_demo
+  query_warehouse: streamlit_poc_wh
+  main_file: streamlit_app.py
+  env_file: environment.yml
+  pages_dir: pages/
+  additional_source_files:
+    - common/hello.py
